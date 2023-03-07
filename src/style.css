@@ -1,78 +1,78 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-      display: flex;
-      flex-direction: column;
-      padding-top: 20px;
-      gap: 30px;
-  }
+body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  gap: 30px;
+}
 
-  .h1Container {
-      padding-left: 20px;
-  }
+.h1Container {
+  padding-left: 20px;
+}
 
-  #mainArea {
-      display: flex;
-      gap: 40px;
-      padding-left: 40px;
-  }
+#mainArea {
+  display: flex;
+  gap: 40px;
+  padding-left: 40px;
+}
 
-  #listSection {
-      display: flex;
-      flex-direction: column;
-      width: 350px;
-      gap: 20px;
-  }
+#listSection {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  gap: 20px;
+}
 
-  #listHead {
-      display: flex;
-      justify-content: space-between;
-  }
+#listHead {
+  display: flex;
+  justify-content: space-between;
+}
 
-  #leaderList {
-      list-style: none;
-      border: 2px solid black;
-  }
+#leaderList {
+  list-style: none;
+  border: 2px solid black;
+}
 
-  #leaderList li:nth-child(odd) {
-    background-color: white;
-  }
-  
-  #leaderList li:nth-child(even) {
-    background-color: #F0F0F0;
-  }
+#leaderList li:nth-child(odd) {
+  background-color: white;
+}
 
-  #leaderForm {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-  }
+#leaderList li:nth-child(even) {
+  background-color: #f0f0f0;
+}
 
-  .inp {
-      border: 2px solid black;
-  }
+#leaderForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
-  .addScore {
-      display: flex;
-      justify-content: flex-end;
-  }
+.inp {
+  border: 2px solid black;
+}
 
-  footer {
-      display: flex;
-      justify-content: center;
-      background-color: grey;
-      position: fixed;
-      bottom: 0;
-      width: 100vw;
-  }
+.addScore {
+  display: flex;
+  justify-content: flex-end;
+}
 
-  .btn {
-      padding: 5px;
-      border: 2px solid black;
-      background-color: white;
-      box-shadow: 4px 4px rgba(0, 0, 0, 0.8);
-  }
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.btn {
+  padding: 5px;
+  border: 2px solid black;
+  background-color: white;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.8);
+}
