@@ -1,7 +1,7 @@
 const render = (boardEntry) => {
   const leaderList = document.getElementById('leaderList');
   leaderList.innerHtml += `
-  <li>${boardEntry.name}: ${boardEntry.score}</li>
+  <li>${boardEntry.user}: ${boardEntry.score}</li>
   `;
 };
 
