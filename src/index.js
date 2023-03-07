@@ -1,13 +1,42 @@
-import _ from 'lodash';
-import './style.css';
+// import './style.css';
+import addScore from './modules/addScore.js';
+import render from './modules/renderScore.js';
 
- function component() {
-   const element = document.createElement('div');
-    // Lodash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+const playerScores = [
+  {
+    user: 'john',
+    score: '100',
+  },
+  {
+    user: 'jane',
+    score: '20',
+  },
+  {
+    user: 'jill',
+    score: '50',
+  },
+  {
+    user: 'jones',
+    score: '78',
+  },
+  {
+    user: 'joan',
+    score: '125',
+  },
+  {
+    user: 'joy',
+    score: '77',
+  },
+  {
+    user: 'joyce',
+    score: '42',
+  },
+];
+playerScores.forEach((e) => render(e));
 
-    return element;
-  }
- 
-  document.body.appendChild(component());
- 
+const leaderForm = document.getElementById('leaderForm');
+
+leaderForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  addScore(leaderForm.nameInput.value, leaderForm.scoreInput.value);
+});
