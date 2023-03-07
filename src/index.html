@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+    <title>Lorenzo Leaderboard</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello webpack!</h1>
+    <div class="h1Container">
+        <h1>Leaderboard</h1>
+    </div>
+    <main id="mainArea">
+        <section id="listSection">
+            <div id="listHead">
+                <h2>Recent Scores</h2>
+                <button class="btn">Refresh</button>
+            </div>
+            <ul id="leaderList">
+                <li>Name: 100</li>
+                <li>Name: 20</li>
+                <li>Name: 50</li>
+                <li>Name: 78</li>
+                <li>Name: 125</li>
+                <li>Name: 77</li>
+                <li>Name: 42</li>
+            </ul>
+        </section>
+        <form id="leaderForm">
+            <h2>Add your score</h2>
+            <input type="text" placeholder="Your name" id="nameInput" class="inp">
+            <input type="text" placeholder="Your score" id="scoreInput" class="inp">
+            <div class="addScore">
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>built by @lorenzoworx</p>
+    </footer>
 </body>
 </html>
