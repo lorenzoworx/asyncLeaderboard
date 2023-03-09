@@ -101,7 +101,7 @@ You can deploy this project using:
 
 - GitHub: [@lorenzoworx](https://github.com/lorenzoworx)
 - Twitter: [@lorenzoworx](https://twitter.com/lorenzoworx)
-- LinkedIn: [Oshoke Okolo]https://www.linkedin.com/in/oshoke-okolo-665208108/)
+- LinkedIn: [Oshoke Okolo](https://www.linkedin.com/in/oshoke-okolo-665208108/)
 
 
 
