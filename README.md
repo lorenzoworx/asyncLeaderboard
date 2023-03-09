@@ -22,7 +22,6 @@ Asynchronous leaderboard project
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 
@@ -40,9 +39,9 @@ The leaderboard website displays scores submitted by different players. It also 
 ### Key Features <a name="key-features"></a>
 
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Refined design**
+- **Access an Api**
+- **Uses asynchronous JavaScript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,25 +68,49 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder:
+- Clone this repository or download the Zip folder:
 
+```
+git clone https://github.com/lorenzoworx/asyncLeaderboard.git
+```
+
+- Navigate to the location of the folder in your machine:
+
+**``you@your-Pc-name:~$ cd <folder>``**
 
 
 ### Usage
 
-To run the project, execute the following command:
+- After Cloning this repo to your local machine
+- Run npm start from the root directory in terminal
 
 
 ### Run tests
 
-To run tests, run the following command:
+To track linter errors locally follow these steps:  
+
+Download all the dependencies run:
+```
+npm install
+```
+Track HTML linter errors run:
+```
+npx hint .
+```
+Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
+Track JavaScript linter errors run:
+```
+npx eslint .
+```
 
 
 ### Deployment
 
-You can deploy this project using:
-
-
+You can deploy this project using: 
+- GitHub Pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,7 +118,6 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Okolo Oshoke**
 
@@ -131,33 +153,14 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project, don't hesitate to leave a star 🤩
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+I would like to thank [Shubham Bhoyar](https://github.com/shubhambhoyar077) for always having my back when I venture into the unknown
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,7 +168,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](MIT.md) licensed.
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
