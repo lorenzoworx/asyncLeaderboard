@@ -9,7 +9,7 @@ const getScore = async (gameId) => {
 
 const refresh = (gameId) => {
   getScore(gameId)
-    .then((data) => render(data.result));
+    .then((listData) => render(listData.result));
 };
 
 export default refresh;
