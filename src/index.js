@@ -3,7 +3,7 @@ import addScore from './modules/addScore.js';
 import refresh from './modules/getScores.js';
 
 const leaderForm = document.getElementById('leaderForm');
-const gameId = 'Zp9s2JGhfxRWLDm5nQyb';
+const gameId = 'VnnwwmEey7FsueGvODX3';
 const refreshBtn = document.getElementById('refresh');
 
 leaderForm.addEventListener('submit', (e) => {
@@ -18,3 +18,5 @@ leaderForm.addEventListener('submit', (e) => {
 refreshBtn.addEventListener('click', () => {
   refresh(gameId);
 });
+
+refresh(gameId);
