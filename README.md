@@ -48,9 +48,9 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+For a live demo to the project, follow the link below
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://lorenzoworx.github.io/asyncLeaderboard/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
